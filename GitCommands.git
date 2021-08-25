@@ -21,3 +21,15 @@ git clean -f
 
 git clean -fd
 
+//That's because Git can't merge the changes from the branches into your current master. Let's say you've checked out branch master, and you want to merge in the remote branch other-branch. When you do this:
+
+$ git pull origin other-branch
+
+//Simply track your remote branches explicitly and a simple git pull will do just what you want:
+
+git branch -f remote_branch_name origin/remote_branch_name
+git checkout remote_branch_name
+
+git branch -f new_local_branch_name upstream/remote_branch_name
+
+
