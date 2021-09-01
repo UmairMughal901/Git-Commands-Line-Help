@@ -32,4 +32,15 @@ git checkout remote_branch_name
 
 git branch -f new_local_branch_name upstream/remote_branch_name
 
+#set a new remote
+
+git remote add my_awesome_new_remote_repo git@git.assembla.com:portfolio/space.space_name.git
+
+
+#Verify new remote
+
+git remote -v
+
+> my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (fetch)
+> my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (push)
 
