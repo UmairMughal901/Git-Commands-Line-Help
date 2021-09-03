@@ -1,7 +1,7 @@
 <h1>How to initialize folder for git tacking</h1>
 git init
 
-//If you want to revert changes made to your working copy, do this:
+<h1>If you want to revert changes made to your working copy, do this</h1>
 
 git checkout .
 
