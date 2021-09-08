@@ -44,3 +44,5 @@ git remote -v
 > my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (fetch)
 > my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (push)
 
+<h2>Generating a new SSH key</h2>
+ssh-keygen -t ed25519 -C "your_email@example.com"
