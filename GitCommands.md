@@ -1,13 +1,14 @@
-<h1>How to initialize folder for git tacking</h1>
-git init
+<!-- <h2></h2>  <p></p> -->
+<h2>How to initialize folder for git tacking</h2>
+<p>git init</p>
 
-<h1>If you want to revert changes made to your working copy, do this</h1>
+<h2>If you want to revert changes made to your working copy, do this</h2>
+<p>git checkout .</p>
 
-git checkout .
 
-<h1>If you want to revert changes made to the index (i.e., that you have added), do this. Warning this will reset all of your unpushed commits to master!:</h1>
+<h2>If you want to revert changes made to the index (i.e., that you have added), do this. Warning this will reset all of your unpushed commits to master!:</h2>
+<p>git reset</p>
 
-git reset
 
 //If you want to revert a change that you have committed, do this:
 
@@ -45,4 +46,5 @@ git remote -v
 > my_awesome_new_remote_repo  git@git.assembla.com:portfolio/space.space_name.git (push)
 
 <h2>Generating a new SSH key</h2>
-ssh-keygen -t ed25519 -C "your_email@example.com"
+
+<p>ssh-keygen -t ed25519 -C "your_email@example.com"</p>
