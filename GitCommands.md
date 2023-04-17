@@ -1,6 +1,7 @@
 git checkout -b ＜new-branch＞
 git commit -a
 git commit -m "commit message"
+git remote add origin git@github.com:User/UserRepo.git
 
 <!-- <h2></h2>  <p></p> -->
 <h2>How to initialize folder for git tacking</h2>
